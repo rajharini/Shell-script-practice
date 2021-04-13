@@ -1,0 +1,16 @@
+#!/bin/bash
+#Author: Rajharini R
+#Date: 12/4/2021
+#Description: Script to add details of a car to database
+##################################################################################
+
+echo Enter Serial No.:
+read serial
+
+grep -q $serial /home/onworks/database
+if [ $? -eq 0 ]
+	then sed -i '/'$serial'/d' /home/onworks/database
+    	echo "1 Record deleted"
+else
+	echo Record does not exist
+fi

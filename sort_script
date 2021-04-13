@@ -1,0 +1,9 @@
+#!/bin/bash
+#Author: Rajharini R
+#Date: 12/4/2021
+#Description: Script to sort numbers in a file and move output to another file
+##################################################################################
+
+sort org_file.txt >> /home/onworks/numbers/sorted_file.txt
+if[$? -eq 0]
+	then echo File created

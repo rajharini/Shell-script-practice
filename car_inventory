@@ -1,0 +1,24 @@
+#!/bin/bash
+#Author: Rajharini R
+#Date: 12/4/2021
+#Description: Script to add details of a car to database
+##################################################################################
+
+proceed=y
+
+while[$proceed -eq y]
+do
+	echo 'a = Add a record'
+	echo 'd = Delete a record'
+	echo Enter your choice:
+	read choice
+
+	case $choice in
+		a) /home/onworks/database/add-record;;
+		d) /home/onworks/database/del-record;;
+		*) echo Invalid choice
+	esac
+
+	echo "Do you wish to continue?(y/n)
+	read proceed
+done

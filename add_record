@@ -1,0 +1,25 @@
+#!/bin/bash
+#Author: Rajharini R
+#Date: 12/4/2021
+#Description: Script to add details of a car to database
+##################################################################################
+
+echo Enter Serial No.:
+read serial
+
+grep -q $serial /home/onworks/database
+if [ $? -eq 0 ]
+	then echo ERROR -- Car with serial no. $serial already exists
+        exit 0
+fi
+echo Enter Make:
+read make
+echo Enter Model name:
+read model
+echo Enter Year of manufacture:
+read year
+echo Enter Color of car:
+read color
+
+echo $serial $make $model $year $color >>database
+echo "1 Record added"

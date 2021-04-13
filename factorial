@@ -1,0 +1,14 @@
+#!/bin/bash
+#Author: Rajharini R
+#Date: 12/4/2021
+#Description: Script to add details of a car to database
+##################################################################################
+
+echo Enter the number:
+read n
+fact=1
+for i in $(seq 1 $n)
+do 
+	fact=`expr $fact \* $i`
+done
+echo The factorial of $n is $ fact

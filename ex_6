@@ -2,7 +2,8 @@
 #Author: Rajharini R
 #Date: 15/4/2021
 #Description: Script to change open file limit
+#USer need to be root
 ##################################################################################
 
-ulimit -n 10000
+sudo sysctl -w fs.file-max=10000
 echo "Open file limit for current session change to 10000"

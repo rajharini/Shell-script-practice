@@ -2,6 +2,7 @@
 #Author: Rajharini R
 #Date: 15/4/2021
 #Description: Script to create a swap file of size 512MB
+#User needs to be root
 ##################################################################################
 
 cd /data

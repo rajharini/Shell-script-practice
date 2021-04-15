@@ -1,0 +1,10 @@
+#!/bin/bash
+#Author: Rajharini R
+#Date: 15/4/2021
+#Description: Parent script for nested scripts
+##################################################################################
+
+exec ./child_file
+complete = $!
+wait $complete
+echo "closing parent_file..."

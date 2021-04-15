@@ -5,6 +5,5 @@
 ##################################################################################
 
 mkdir data
-touch data/sample.txt
-echo "This is sample file" >> sample.txt
+echo "This is sample file" >> data/sample.txt
 echo File created

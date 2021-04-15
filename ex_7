@@ -1,0 +1,12 @@
+#!/bin/bash
+#Author: Rajharini R
+#Date: 15/4/2021
+#Description: Script to create a swap file of size 512MB
+##################################################################################
+
+cd /data
+sudo fallocate -l 512MB /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+echo Swap file of size 512MB created

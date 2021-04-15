@@ -1,7 +1,7 @@
 #!/bin/bash
 #Author: Rajharini R
 #Date: 15/4/2021
-#Description: Script to create a directory and add content
+#Description: Script to create user and add to a group
 ##################################################################################
 
 sudo useradd -d home/testuser tuser

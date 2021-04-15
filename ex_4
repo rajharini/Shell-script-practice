@@ -6,7 +6,7 @@
 
 while true
 do
-	if[ -f loop.txt]
+	if[ -f data/loop.txt]
 	then
 		echo File exists
 		exit 1

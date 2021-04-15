@@ -1,0 +1,14 @@
+#!/bin/bash
+#Author: Rajharini R
+#Date: 15/4/2021
+#Description: Script to check availability of a file
+##################################################################################
+
+while true
+do
+	if[ -e loop.txt]
+	then
+		echo File exists
+		exit 1
+	fi
+done

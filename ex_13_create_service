@@ -2,6 +2,7 @@
 #Author: Rajharini R
 #Date: 15/4/2021
 #Description: Script to create a service
+#User needs to be root
 ##################################################################################
 
 cd /etc/systemd/system

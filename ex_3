@@ -4,5 +4,4 @@
 #Description: Script to find a file and copy to another location
 ##################################################################################
 
-path = `find / -name sample.txt`
-cp $path  /tmp/found.txt
+cp `find . -name sample.txt` /tmp/found.txt

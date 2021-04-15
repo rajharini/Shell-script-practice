@@ -1,7 +1,7 @@
 #!/bin/bash
 #Author: Rajharini R
 #Date: 12/4/2021
-#Description: Script to add details of a car to database
+#Description: Script to delete details of a car to database
 ##################################################################################
 
 echo Enter Serial No.:

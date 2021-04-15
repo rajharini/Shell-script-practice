@@ -4,6 +4,8 @@
 #Description: Parent script for nested scripts
 ##################################################################################
 
+echo "This is parent file"
+echo "Opening child file"
 exec ./child_file
 complete = $!
 wait $complete

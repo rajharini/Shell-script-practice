@@ -1,7 +1,7 @@
 #!/bin/bash
 #Author: Rajharini R
 #Date: 12/4/2021
-#Description: Script to add details of a car to database
+#Description: Script to find the factorial of a number
 ##################################################################################
 
 echo Enter the number:

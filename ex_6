@@ -2,7 +2,7 @@
 #Author: Rajharini R
 #Date: 15/4/2021
 #Description: Script to change open file limit
-#USer need to be root
+#User need to be root
 ##################################################################################
 
 sudo sysctl -w fs.file-max=10000

@@ -1,7 +1,7 @@
 #!/bin/bash
 #Author: Rajharini R
 #Date: 15/4/2021
-#Description: Script to create a directory and add content
+#Description: Script to create a soft/symbolic link of an existing file
 ##################################################################################
 
 ln -s ./data/sample.txt /tmp/sample.txt

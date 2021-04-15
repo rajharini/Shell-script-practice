@@ -6,4 +6,4 @@
 
 mkdir data
 echo "This is sample file" >> data/sample.txt
-echo File sample.txt is created
+echo "File sample.txt is created"

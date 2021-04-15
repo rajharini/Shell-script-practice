@@ -5,4 +5,4 @@
 ##################################################################################
 
 find /etc -name "*localhost*" 1>/tmp/find.out 2>/tmp/find.err
-echo /tmp/find.out and /tmp/find.err files are created
+echo "/tmp/find.out and /tmp/find.err files are created"

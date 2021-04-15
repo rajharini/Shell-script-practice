@@ -8,7 +8,7 @@ while true
 do
 	if[ -f data/loop.txt]
 	then
-		echo File exists
 		exit 1
 	fi
 done
+echo "File loop.txt exists"

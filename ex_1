@@ -1,0 +1,10 @@
+#!/bin/bash
+#Author: Rajharini R
+#Date: 15/4/2021
+#Description: Script to create a directory and add content
+##################################################################################
+
+mkdir data
+touch data/sample.txt
+echo "This is sample file" >> sample.txt
+echo File created

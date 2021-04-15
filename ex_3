@@ -5,3 +5,4 @@
 ##################################################################################
 
 cp `find . -name sample.txt` /tmp/found.txt
+echo "A copy of the file is created in tmp folder"

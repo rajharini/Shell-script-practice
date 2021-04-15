@@ -1,0 +1,8 @@
+#!/bin/bash
+#Author: Rajharini R
+#Date: 15/4/2021
+#Description: Script to find a file and copy to another location
+##################################################################################
+
+path = `find / -name sample.txt`
+cp $path  /tmp/found.txt

@@ -1,0 +1,8 @@
+#!/bin/bash
+#Author: Rajharini R
+#Date: 15/4/2021
+#Description: Script to find localhost and redirect the corresponding messages to find.out and find.err
+##################################################################################
+
+find /etc -name "*localhost*" 1>/tmp/find.out 2>/tmp/find.err
+echo /tmp/find.out and /tmp/find.err files are created

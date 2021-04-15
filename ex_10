@@ -1,0 +1,11 @@
+#!/bin/bash
+#Author: Rajharini R
+#Date: 15/4/2021
+#Description: Script to run apache server
+##################################################################################
+
+service apache2 stop
+sed -i "s/*Listen [0-9]*/Listen 8080/" /etc/apache2/ports.conf
+echo "Welcome to home page" > /var/www/html/index.html
+service apache2 start
+echo "Checkout localhost in your web browser"

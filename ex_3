@@ -2,7 +2,7 @@
 #Author: Rajharini R
 #Date: 15/4/2021
 #Description: Script to find a file and copy to another location
-##################################################################################
+#################################################################################
 
 cp `find . -name sample.txt` /tmp/found.txt
 echo "A copy of the file is created in tmp folder"

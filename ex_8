@@ -5,6 +5,6 @@
 #User needs to be root
 ##################################################################################
 sudo groupadd testgroup
-sudo useradd -m tuser
+sudo useradd -m -d /home/testuser tuser
 sudo usermod -a -G testgroup tuser
 echo User tuser created and added to testgroup

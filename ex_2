@@ -5,4 +5,4 @@
 ##################################################################################
 
 ln -s ./data/sample.txt /tmp/sample.txt
-echo Softlink created
+echo "Softlink for sample.txt is created in tmp folder"

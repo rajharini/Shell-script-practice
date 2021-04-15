@@ -1,0 +1,14 @@
+#!/bin/bash
+#Author: Rajharini R
+#Date: 15/4/2021
+#Description: Script to create a service
+##################################################################################
+
+cd /etc/systemd/system
+touch fact_exec.service
+echo "[Service]
+ExecStart=./factorial
+Restart= always"
+
+sudo systemcl daemon-reload
+sudo systemctl start fact_exec.service

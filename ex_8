@@ -3,7 +3,7 @@
 #Date: 15/4/2021
 #Description: Script to create user and add to a group
 ##################################################################################
-
-sudo useradd -d home/testuser tuser
+sudo groupadd testgroup
+sudo useradd -m tuser
 sudo usermod -a -G testgroup tuser
 echo User tuser created and added to testgroup

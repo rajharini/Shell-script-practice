@@ -2,7 +2,8 @@
 #Author: Rajharini R
 #Date: 15/4/2021
 #Description: Script to update umask value for a user
+#User needs to be root
 ##################################################################################
 
 su -c "umask 0644" tuser
-echo Permission for tuser updated
+echo "Permission for tuser updated"

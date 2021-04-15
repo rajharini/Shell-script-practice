@@ -1,0 +1,8 @@
+#!/bin/bash
+#Author: Rajharini R
+#Date: 15/4/2021
+#Description: Script to extract a particular field of the given json file
+##################################################################################
+
+read -p "Enter the field to be extracted" name
+jq ./data/sample.json $name

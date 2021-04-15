@@ -2,6 +2,7 @@
 #Author: Rajharini R
 #Date: 15/4/2021
 #Description: Script to run apache server
+#User needs to be root
 ##################################################################################
 
 service apache2 stop
